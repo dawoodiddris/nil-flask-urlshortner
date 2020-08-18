@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take url</title>
+</head>
+<body>
+    <h3>Your url shortner, {{ name }} </h3>
+
+    <form action="/your-url" method="get">
+        <label for="longurl">Long URL</label>
+        <input type="url" name="longurl" id="">
+
+        <label for="shorturl">Short url(can be a short name)</label>
+        <input type="text" name="shorturl" id="">
+
+        <button type="submit">Generate</button>
+
+    </form>
+
+</body>
+</html>
